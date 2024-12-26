@@ -1,6 +1,5 @@
 ![image](https://github.com/user-attachments/assets/44d90e2b-2061-4d69-8dbd-bef37ed8ee51)
 
-
 <h3>Pizza Sales Dashboard Analysis (Jan 2022 - Dec 2022)</h3>
 
 <p>This dashboard provides a comprehensive overview of pizza sales data from January 2022 to December 2022. It presents key metrics such as total revenue, total pizzas sold, average pizzas per order, total orders, and average order value, along with detailed breakdowns of best and worst-selling pizzas across different categories.</p>
@@ -52,16 +51,19 @@
 
 <p>The dashboard further analyzes pizza sales by identifying the top and bottom 5 performers in terms of revenue, quantity sold, and total orders.</p>
 
-<hr>
+<div style="display: flex; flex-direction: row; gap: 10px;">
 
-<h4>Best and Worst Selling Pizzas</h4>
-
-<div style="display: flex; flex-direction: row; justify-content: space-between;">
-
+  <!-- Best Sellers Table -->
   <div style="width: 48%;">
     <h5>Best Sellers</h5>
-    <table>
-      <thead><tr><th>Category</th><th>Pizza</th><th>Value</th></tr></thead>
+    <table border="1" cellspacing="0" cellpadding="5" style="width: 100%; text-align: left;">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Pizza</th>
+          <th>Value</th>
+        </tr>
+      </thead>
       <tbody>
         <tr><td rowspan="5"><b>Revenue</b></td><td>The Chai Chicken Pizza</td><td>Most Revenue</td></tr>
         <tr><td>The Thai Chicken Pizza</td><td>43K</td></tr>
@@ -82,10 +84,17 @@
     </table>
   </div>
 
+  <!-- Worst Sellers Table -->
   <div style="width: 48%;">
     <h5>Worst Sellers</h5>
-    <table>
-      <thead><tr><th>Category</th><th>Pizza</th><th>Value</th></tr></thead>
+    <table border="1" cellspacing="0" cellpadding="5" style="width: 100%; text-align: left;">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Pizza</th>
+          <th>Value</th>
+        </tr>
+      </thead>
       <tbody>
         <tr><td rowspan="5"><b>Revenue</b></td><td>The Brie Carre Pizza</td><td>Least Revenue</td></tr>
         <tr><td>The Spinach Pesto Pizza</td><td>16K</td></tr>
@@ -119,3 +128,4 @@
 <img src="https://github.com/PraneethSurya/Domino_pizza/blob/main/Untitled%20design.png" alt="Pizza Sales Dashboard" width="800">
 <br>
 <small><em>Pizza Sales Dashboard from January 2022 to December 2022.</em></small>
+
