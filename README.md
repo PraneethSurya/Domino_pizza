@@ -1,6 +1,11 @@
+![image](https://github.com/user-attachments/assets/44d90e2b-2061-4d69-8dbd-bef37ed8ee51)
+
+
 <h3>Pizza Sales Dashboard Analysis (Jan 2022 - Dec 2022)</h3>
 
 <p>This dashboard provides a comprehensive overview of pizza sales data from January 2022 to December 2022. It presents key metrics such as total revenue, total pizzas sold, average pizzas per order, total orders, and average order value, along with detailed breakdowns of best and worst-selling pizzas across different categories.</p>
+
+<hr>
 
 <h4>Key Performance Indicators (KPIs)</h4>
 
@@ -41,11 +46,14 @@
   </tbody>
 </table>
 
+<hr>
+
 <h4>Best and Worst Selling Pizzas</h4>
 
 <p>The dashboard further analyzes pizza sales by identifying the top and bottom 5 performers in terms of revenue, quantity sold, and total orders.</p>
 
-<h3>Pizza Sales Dashboard Analysis (Jan 2022 - Dec 2022)</h3>
+<hr>
+
 <h4>Best and Worst Selling Pizzas</h4>
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
@@ -100,9 +108,13 @@
 
 </div>
 
+<hr>
+
 <h4>Overall Analysis</h4>
 
 <p>The dashboard reveals that the "Classic Deluxe Pizza" is a strong performer across quantity sold and total orders, while "The Chai Chicken Pizza" generates the most revenue. Conversely, "The Brie Carre Pizza" consistently underperforms in all categories. This information can be valuable for making informed decisions about menu optimization, marketing strategies, and inventory management.</p>
+
+<hr>
 
 <img src="https://github.com/PraneethSurya/Domino_pizza/blob/main/Untitled%20design.png" alt="Pizza Sales Dashboard" width="800">
 <br>
